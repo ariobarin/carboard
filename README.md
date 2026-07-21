@@ -33,6 +33,8 @@ Carboard gives the same hardware a stable URL anyone on the LAN can open, with
 guardrails (reserved-pin protection, PWM validation, graceful camera teardown)
 that make random clicking safe.
 
+![Carboard dashboard rendering the 40-pin GPIO header and camera panel](docs/screenshot.png)
+
 ## Tech stack
 
 - Python 3 with Flask as the web framework
@@ -80,3 +82,7 @@ the install script.
   local. Never commit secrets to this repository.
 - Tests live under `tests/` and run with `uv run -m pytest -q`. See `AGENTS.md`
   for the full contributor guide.
+
+## License
+
+Licensed under the [MIT License](LICENSE).
