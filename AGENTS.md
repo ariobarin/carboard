@@ -30,7 +30,7 @@ Running the app:
 Other helpful commands:
 
 - `git status`: verify only intended changes are staged.
-- `gh run list --repo Doomsy1/carboard`: inspect deployment workflow runs.
+- `gh run list --repo ariobarin/carboard`: inspect deployment workflow runs.
 
 If you add tooling such as `pytest`, `ruff`, or update/add `pyproject.toml`, revise this guide in the same change.
 
@@ -46,7 +46,8 @@ Keep root scripts thin and move reusable logic into `src/`. Use descriptive name
 
 ## Testing Guidelines
 
-No test suite is committed yet. When adding behavior, add tests alongside it.
+The webapp test suite lives under `tests/` (for example `tests/test_webapp.py`).
+When adding behavior, add tests alongside it.
 
 - Put tests under `tests/`
 - Name files `test_<feature>.py`
